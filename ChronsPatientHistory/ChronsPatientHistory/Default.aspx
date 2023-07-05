@@ -14,9 +14,12 @@
             <asp:ListItem>CM</asp:ListItem>
             <asp:ListItem>Inches</asp:ListItem>
         </asp:DropDownList>
-        <br />
+        :<br />
 
     </div>
+    Weight:<asp:TextBox ID="WeightBox" runat="server"></asp:TextBox>
+    <asp:DropDownList ID="WeightDropdown" runat="server">
+    </asp:DropDownList>
     <asp:Button ID="SaveButton" runat="server" OnClick="SaveButton_Click" Text="Save" />
 
 </asp:Content>
